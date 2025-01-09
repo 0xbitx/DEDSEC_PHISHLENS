@@ -1,0 +1,7 @@
+requests
+selenium
+webdriver-manager
+python-whois
+joblib
+pandas
+tabulate
