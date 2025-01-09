@@ -19,8 +19,6 @@ Features
   
   * Screenshot Capture: Take screenshots of suspicious pages for visual inspection.
   
-  * Detailed Reporting: Generate comprehensive reports with all findings.
-
 ## How It Works
   Domain Reputation Check:
         The tool queries VirusTotal or other APIs to check if the domain is flagged as malicious.
