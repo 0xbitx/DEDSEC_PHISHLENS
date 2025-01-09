@@ -1,6 +1,6 @@
 
 <p align="center">
-<img src="", width="300", height="300">
+<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHI5bG13MjNldzltMjFiaWs4emJqa2FtMmN1dHNqNjFvd2NqMXQ0MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kliStk02WKPkHxDUCb/giphy.webp", width="300", height="300">
 </p>
 
 <h2 align="center">DEDSEC_PHISHLENS</h2>
@@ -20,8 +20,6 @@ Features
   * Screenshot Capture: Take screenshots of suspicious pages for visual inspection.
   
   * Detailed Reporting: Generate comprehensive reports with all findings.
-
-    (Optional) Add your VirusTotal API key to the configuration file:
 
 ## How It Works
   Domain Reputation Check:
@@ -43,6 +41,7 @@ Features
     * git clone https://github.com/0xbitx/DEDSEC_PHISHLENS.git
     * cd DEDSEC_PHISHLENS
     * pip3 install -r requirements.txt
+    * Add your VirusTotal API key to the configuration file (virustotal.api):
     * ./dedsec_phishlens
 
 ### TESTED ON FOLLOWING
