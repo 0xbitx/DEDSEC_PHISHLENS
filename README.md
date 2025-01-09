@@ -42,6 +42,7 @@ Features
     * cd DEDSEC_PHISHLENS
     * pip3 install -r requirements.txt
     * Add your VirusTotal API key to the configuration file (virustotal.api):
+    * chmod +x dedsec_phishlens
     * ./dedsec_phishlens
 
 ### TESTED ON FOLLOWING
