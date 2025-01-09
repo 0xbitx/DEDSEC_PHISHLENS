@@ -273,11 +273,19 @@ class main_class:
             "click", "here", "link", "secure", "validate", "access", "unlock", "download",
             "phishing", "scam", "fraud", "hack", "malware", "virus", "spyware", "trojan",
             "amazon", "google", "facebook", "microsoft", "apple", "netflix", "ebay",
-            "your account has been compromised", "verify your identity", "unusual login activity"
+            "your account has been compromised", "verify your identity", "unusual login activity",
+            "click now", "verify now", "limited time", "act now", "your account", "risk",
+            "account update", "important update", "security alert", "confirm your identity",
+            "password reset", "access your account", "log in", "claim your prize", "congratulations",
+            "update required", "you have been selected", "validate your account", "final notice",
+            "confirm now", "take action", "unauthorized activity", "sign in", "redeem now",
+            "you are a winner", "download now", "urgent action required", "reset password",
+            "limited offer", "exclusive deal", "verify account", "bank account", "payment declined",
+            "upgrade required", "respond immediately"
         ]
-        
+
+        suspicious_keywords = list(set(suspicious_keywords))
         detected_keywords = [keyword for keyword in suspicious_keywords if keyword in url.lower()]
-        
         if detected_keywords:
             return f"{self.red_warning} Warning:\033[91m Suspicious keywords detected: {', '.join(detected_keywords)}\033[0m"
         else:
