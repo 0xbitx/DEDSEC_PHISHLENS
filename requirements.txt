@@ -5,3 +5,5 @@ python-whois
 joblib
 pandas
 tabulate
+dnspython
+fpdf2
