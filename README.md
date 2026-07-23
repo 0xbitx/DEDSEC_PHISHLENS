@@ -83,7 +83,7 @@ Obtain a VirusTotal API key from https://www.virustotal.com and write it to the 
 
 ```bash
 chmod +x dedsec_phishlens.py
-python3 dedsec_phishlens.py
+./dedsec_phishlens
 ```
 
 ## Dependencies
