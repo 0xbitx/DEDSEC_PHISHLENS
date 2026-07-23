@@ -38,13 +38,13 @@ A direct TLS handshake extracts the full certificate chain for offline analysis.
 A TLS handshake is performed against port 443. The peer certificate's `notAfter` field is compared against system time. Expired or unverifiable certificates are treated as risk indicators.
 
 **URL Keyword Inspection**
-The URL path and query string are scanned against a corpus of over 90 high signal keywords: credential harvesting triggers, urgency pressure phrases, financial lure terms, and brand impersonation targets. The domain name itself is excluded from scanning to prevent false positives on legitimate sites.
+The URL path, query string, and `@` decoy portion are scanned against a corpus of over 90 high signal keywords: credential harvesting triggers, urgency pressure phrases, financial lure terms, and brand impersonation targets. The domain name itself is excluded from scanning to prevent false positives on legitimate sites.
 
 **Favicon Hash**
 The site's favicon is downloaded and its SHA256 hash is computed. This enables comparison against known legitimate favicon databases and can detect cloned assets hosted on adversary infrastructure.
 
 **Page Content Analysis**
-The rendered DOM is inspected for phishing indicators: login forms posting credentials to external domains, hidden iframes loading third party content, obfuscated JavaScript patterns (`eval`, `fromCharCode`, `atob`), and brand name references that do not match the hosting domain.
+The rendered DOM is inspected for phishing indicators: login forms posting credentials to external domains, hidden iframes loading third party content, obfuscated JavaScript patterns (`eval`, `fromCharCode`, `atob`), and brand name references on pages with login forms that do not match the hosting domain.
 
 **Domain Registration Analysis**
 WHOIS lookup retrieves the domain creation timestamp. Domains under 365 days old are flagged as elevated risk since adversary operated domains are overwhelmingly short lived.
@@ -55,12 +55,12 @@ WHOIS lookup retrieves the domain creation timestamp. Domains under 365 days old
 A custom-trained XGBoost classifier (`phishing_model_by_0xbit.model`) extracts 114 structural features from the URL across the domain, path, query string, and filename components. The model was trained on a curated phishing dataset using gradient-boosted decision trees with an 80/20 train/test split. Features include character frequency distributions, IP-in-hostname detection, TLD analysis, URL shortener detection, DNS TTL values, MX record counts, WHOIS domain age in days, measured HTTP response time, and structural anomaly scoring. The model outputs a binary classification with a confidence probability that carries the largest weight in the scoring engine.
 
 **Penalty-Based Safety Scoring**
-The scoring engine combines two mechanisms. First, a weighted base score is computed from the ML classifier (60%) and four infrastructure signals — domain reputation, SSL validity, keyword detection, and domain age — at 10% each. Then a penalty system deducts from the base for concrete red flags: `@` redirection (-15%), URL shortener usage (-10%), login forms posting credentials to external domains (-10%), brand impersonation in page content (-5%), and IDN homograph attacks (-8%). This dual approach ensures that a phishing page with valid SSL and an unknown reputation (which would otherwise score deceptively high) is driven toward zero when structural attack techniques are confirmed. Legitimate domains with no penalty triggers retain their full weighted score.
+The scoring engine combines two mechanisms. First, a weighted base score is computed from the ML classifier (60%) and four infrastructure signals — domain reputation, SSL validity, keyword detection, and domain age — at 10% each. When the VirusTotal API key is not configured, its weight is dynamically redistributed to the ML model rather than counting as a flat penalty. Then a penalty system deducts from the base for concrete red flags: `@` redirection (-15%), URL shortener usage (-10%), login forms posting credentials to external domains (-10%), brand impersonation in page content (-5%), and IDN homograph attacks (-8%). This dual approach ensures that a phishing page with valid SSL and an unknown reputation (which would otherwise score deceptively high) is driven toward zero when structural attack techniques are confirmed. Legitimate domains with no penalty triggers retain their full weighted score.
 
 ### Output & Automation
 
 **PDF Report Generation**
-A structured PDF is produced containing domain information tables, all detection findings with PASS/FAIL/WARN badges, an embedded full page screenshot, and a final verdict with weighted safety score.
+A structured five-section PDF is produced containing an executive summary with pass/fail counts, domain information tables, categorized detection findings with descriptions and status badges, a redirect flow map, an embedded full-page screenshot, and a scoring methodology breakdown.
 
 **JSON Export**
 All analysis results are exported as structured JSON alongside the PDF. The schema is designed for ingestion into SOAR playbooks, SIEM dashboards, or custom analysis pipelines.
@@ -82,7 +82,7 @@ pip3 install -r requirements.txt
 Obtain a VirusTotal API key from https://www.virustotal.com and write it to the `virustotal.api` file, replacing the placeholder value.
 
 ```bash
-chmod +x dedsec_phishlens.py
+chmod +x dedsec_phishlens
 ./dedsec_phishlens
 ```
 
@@ -104,7 +104,7 @@ Chrome or Chromium must be installed on the host system for the screenshot captu
 
 ## Usage
 
-Launch the tool and provide a URL at the prompt. The engine runs all 14 detection layers sequentially and displays each finding inline. A final weighted safety percentage is printed along with paths to the PDF report, JSON export, and captured screenshot.
+Launch the tool and provide a URL at the prompt. The engine runs all 16 detection layers sequentially and displays each finding inline. A final weighted safety percentage is printed along with paths to the PDF report, JSON export, and captured screenshot.
 
 ```bash
 ./dedsec_phishlens
@@ -131,12 +131,12 @@ The tool has been verified on the following distributions:
 
 ```
 DEDSEC_PHISHING_DETECTION/
-├── dedsec_phishlens               Main analysis engine
-├── phishing_model_by_0xbit.model  Custom-trained XGBoost classifier
-├── virustotal.api                 VirusTotal API key (user provided)
-├── requirements.txt               Python dependencies
-├── page-screenshots/              Captured page renders
-└── reports/                       PDF reports and JSON exports
+├── dedsec_phishlens                Main analysis engine
+├── phishing_model_by_0xbit.model   Custom-trained XGBoost classifier
+├── virustotal.api                  VirusTotal API key (user provided)
+├── requirements.txt                Python dependencies
+├── page-screenshots/               Captured page renders
+└── reports/                        PDF reports and JSON exports
 ```
 
 ## Threat Model
