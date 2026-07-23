@@ -153,6 +153,10 @@ Automated integration into a SOAR playbook is feasible by calling the underlying
 
 This tool is an analysis aid, not a definitive verdict. Sophisticated phishing campaigns may employ techniques such as cloaking, geofencing, or CAPTCHA gating that prevent automated screenshot capture and may evade keyword or age based detection. Analysts should treat the weighted score as one input among many in their investigation process and always apply contextual judgment.
 
+| TOOL BANNER |
+|----------|
+| ![image-analysis](https://github.com/user-attachments/assets/cb5cff04-6ce9-4751-82b8-bdd161e92084) |
+
 ## Detection Gallery
 
 Real-world URL analyses performed by PhishLens. Each entry shows the target URL and the full-page screenshot captured during automated triage, exactly as an analyst would review it during an investigation.
