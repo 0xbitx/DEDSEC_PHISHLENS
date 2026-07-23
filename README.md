@@ -1,6 +1,11 @@
-# PHISHLENS
 
-**Advanced Phishing Detection Engine — Multi-Layer Analysis, Penalty-Based Scoring, Automated Triage**
+<p align="center">
+  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGF1NGtlNHQ4eWlqb3RhamZhbzdndm05aWFvdnlqdHpxd2FxaWQ2dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PPUtKoa3dOW3cTNL4M/giphy.gif">
+</p>
+
+
+<h1 align="center">PHISHLENS</h1>
+<p align="center"><code>Advanced Phishing Detection Engine — Multi-Layer Analysis, Penalty-Based Scoring, Automated Triage</code></p>
 
 ---
 
