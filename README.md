@@ -164,11 +164,11 @@ Real-world URL analyses performed by PhishLens. Each entry shows the target URL 
 | Analysis |
 |----------|
 | URL: `https://github.com` |
-| ![image-analysis](page-screenshots/screenshot-github.com-20260723044251.png) |
+| ![image-analysis](https://github.com/user-attachments/assets/792c7a59-c6f7-4b1f-8ea2-1cf89fe65fe5) |
 | Report |
-| ![image-analysis](reports/report-github.com-20260723065712.pdf) |
+| [report-github.com-20260723065712.pdf](https://github.com/user-attachments/files/30289856/report-github.com-20260723065712.pdf) |
 | Json Report |
-| ![image-analysis](reports/report-github.com-20260723065713.json) |
+| [report-github.com-20260723065713.json](https://github.com/user-attachments/files/30289851/report-github.com-20260723065713.json) |
 
 ---
 
@@ -177,11 +177,11 @@ Real-world URL analyses performed by PhishLens. Each entry shows the target URL 
 | Analysis |
 |----------|
 | URL: `https://google.com` |
-| ![image-analysis](page-screenshots/screenshot-google.com-20260723070026.png) |
+| ![image-analysis](https://github.com/user-attachments/assets/8788d7a9-cc7c-4602-819e-78240708c721) |
 | Report |
-| ![image-analysis](reports/report-google.com-20260723070032.pdf) |
+| [report-google.com-20260723070032.pdf](https://github.com/user-attachments/files/30289833/report-google.com-20260723070032.pdf) |
 | Json Report |
-| ![image-analysis](reports/report-google.com-20260723070032.json) |
+| [report-google.com-20260723070032.json](https://github.com/user-attachments/files/30289835/report-google.com-20260723070032.json) |
 
 
 ---
@@ -191,11 +191,11 @@ Real-world URL analyses performed by PhishLens. Each entry shows the target URL 
 | Analysis |
 |----------|
 | URL: `https://facebook.com` |
-| ![image-analysis](page-screenshots/screenshot-facebook.com-20260723070125.png) |
+| ![image-analysis](https://github.com/user-attachments/assets/20b2c055-0cbc-4f91-9424-92333673f128) |
 | Report |
-| ![image-analysis](reports/report-facebook.com-20260723070133.pdf) |
+| [report-facebook.com-20260723070133.pdf](https://github.com/user-attachments/files/30289811/report-facebook.com-20260723070133.pdf) |
 | Json Report |
-| ![image-analysis](reports/report-facebook.com-20260723070133.json) |
+| [report-facebook.com-20260723070133.json](https://github.com/user-attachments/files/30289815/report-facebook.com-20260723070133.json) |
 
 ---
 
@@ -204,11 +204,14 @@ Real-world URL analyses performed by PhishLens. Each entry shows the target URL 
 | Analysis |
 |----------|
 | URL: `https://www.facebook.com⧸james⧸idʔ@prepare-primary-favors-attitudes.trycloudflare.com` |
-| ![image-analysis](page-screenshots/screenshot-prepare-primary-favors-attitudes.trycloudflare.com-20260723070506.png) |
+| ![image-analysis](https://github.com/user-attachments/assets/ff77eee9-e3c6-4b95-88ac-4cba99fc8b12) |
+| ![image-analysis](https://github.com/user-attachments/assets/1bf2707c-e38d-4059-8ff2-c8a303e4d5bb) |
+| My Phishing Tool |
+| ![image-analysis](https://github.com/user-attachments/assets/15ac761c-1d8d-45c5-9955-66ee095db27a) |
 | Report |
-| ![image-analysis](reports/report-prepare-primary-favors-attitudes.trycloudflare.com-20260723070512.pdf) |
+| [report-prepare-primary-favors-attitudes.trycloudflare.com-20260723070512.pdf](https://github.com/user-attachments/files/30289760/report-prepare-primary-favors-attitudes.trycloudflare.com-20260723070512.pdf) |
 | Json Report |
-| ![image-analysis](reports/report-prepare-primary-favors-attitudes.trycloudflare.com-20260723070512.json) |
+| [report-prepare-primary-favors-attitudes.trycloudflare.com-20260723070512.json](https://github.com/user-attachments/files/30289762/report-prepare-primary-favors-attitudes.trycloudflare.com-20260723070512.json) |
 
 ---
 
@@ -217,22 +220,26 @@ Real-world URL analyses performed by PhishLens. Each entry shows the target URL 
 | Analysis |
 |----------|
 | URL: `https://www.facebook.com⧸james⧸idʔ@t.ly/Rz9Jn` |
-| ![image-analysis](page-screenshots/screenshot-prepare-primary-favors-attitudes.trycloudflare.com-20260723070506.png) |
+| ![image-analysis](https://github.com/user-attachments/assets/f8f645f5-e5ca-43d9-8608-a90b03bcec5c) |
+| ![image-analysis](https://github.com/user-attachments/assets/5202a613-c5cd-4887-8e32-39153f63c8de) |
 | Report |
-| ![image-analysis](reports/report-prepare-primary-favors-attitudes.trycloudflare.com-20260723070757.pdf) |
+| [report-prepare-primary-favors-attitudes.trycloudflare.com-20260723070757.pdf](https://github.com/user-attachments/files/30289734/report-prepare-primary-favors-attitudes.trycloudflare.com-20260723070757.pdf) |
 | Json Report |
-| ![image-analysis](reports/screenshot-prepare-primary-favors-attitudes.trycloudflare.com-20260723070506.png) |
+| [report-prepare-primary-favors-attitudes.trycloudflare.com-20260723070757.json](https://github.com/user-attachments/files/30289737/report-prepare-primary-favors-attitudes.trycloudflare.com-20260723070757.json) |
 
 ### 6. Actual Phishing Page (Google Method 1)
 
 | Analysis |
 |----------|
 | URL: `https://google.com⧸accountʔ@cuisine-existing-breakdown-discounts.trycloudflare.com` |
-| ![image-analysis](page-screenshots/screenshot-cuisine-existing-breakdown-discounts.trycloudflare.com-20260723071140.png) |
+| ![image-analysis](https://github.com/user-attachments/assets/39a18515-2227-4276-8190-4bcde48a5cd1) |
+| ![image-analysis](https://github.com/user-attachments/assets/3f05e753-cd25-4181-a10d-4a8cb84391bd) |
+| My Phishing Tool |
+| ![image-analysis](https://github.com/user-attachments/assets/70e3f791-22b2-4c74-8b71-dce6348d094d) |
 | Report |
-| ![image-analysis](reports/report-cuisine-existing-breakdown-discounts.trycloudflare.com-20260723071148.pdf) |
+| [report-cuisine-existing-breakdown-discounts.trycloudflare.com-20260723071148.pdf](https://github.com/user-attachments/files/30289647/report-cuisine-existing-breakdown-discounts.trycloudflare.com-20260723071148.pdf) |
 | Json Report |
-| ![image-analysis](reports/report-cuisine-existing-breakdown-discounts.trycloudflare.com-20260723071149.json) |
+| [report-cuisine-existing-breakdown-discounts.trycloudflare.com-20260723071149.json](https://github.com/user-attachments/files/30289651/report-cuisine-existing-breakdown-discounts.trycloudflare.com-20260723071149.json) |
 
 ---
 
@@ -241,11 +248,11 @@ Real-world URL analyses performed by PhishLens. Each entry shows the target URL 
 | Analysis |
 |----------|
 | URL: `https://google.com⧸accountʔ@t.ly/EFiTr` |
-| ![image-analysis](page-screenshots/screenshot-cuisine-existing-breakdown-discounts.trycloudflare.com-20260723071140.png) |
+| ![image-analysis](https://github.com/user-attachments/assets/f8064d36-6cf0-4699-8693-388543caa135) |
 | Report |
-| ![image-analysis](reports/report-t.ly-20260723072801.pdf) |
+| [report-t.ly-20260723072801.pdf](https://github.com/user-attachments/files/30289542/report-t.ly-20260723072801.pdf) |
 | Json Report |
-| ![image-analysis](reports/report-t.ly-20260723072801.pdf) |
+| [report-t.ly-20260723072802.json](https://github.com/user-attachments/files/30289567/report-t.ly-20260723072802.json) |
 
 ---
 
