@@ -235,15 +235,15 @@ Real-world URL analyses performed by PhishLens. Each entry shows the target URL 
 
 | Analysis |
 |----------|
-| URL: `https://google.com⧸accountʔ@cuisine-existing-breakdown-discounts.trycloudflare.com` |
-| ![image-analysis](https://github.com/user-attachments/assets/39a18515-2227-4276-8190-4bcde48a5cd1) |
-| ![image-analysis](https://github.com/user-attachments/assets/3f05e753-cd25-4181-a10d-4a8cb84391bd) |
+| URL: `https://google.com⧸accountʔ@commands-may-opposed-leu.trycloudflare.com` |
+| ![image-analysis](https://github.com/user-attachments/assets/22650366-5795-4cad-8400-366e45580ad1) |
+| ![image-analysis](https://github.com/user-attachments/assets/888a3aac-3729-4f51-bb97-126bd9a37b04) |
 | My Phishing Tool |
-| ![image-analysis](https://github.com/user-attachments/assets/70e3f791-22b2-4c74-8b71-dce6348d094d) |
+| ![image-analysis](https://github.com/user-attachments/assets/2aad73cc-6475-41ba-a01b-645a1317f899) |
 | Report |
-| [report-cuisine-existing-breakdown-discounts.trycloudflare.com-20260723071148.pdf](https://github.com/user-attachments/files/30289647/report-cuisine-existing-breakdown-discounts.trycloudflare.com-20260723071148.pdf) |
+| [report-commands-may-opposed-leu.trycloudflare.com-20260723110202.pdf](https://github.com/user-attachments/files/30290843/report-commands-may-opposed-leu.trycloudflare.com-20260723110202.pdf) |
 | Json Report |
-| [report-cuisine-existing-breakdown-discounts.trycloudflare.com-20260723071149.json](https://github.com/user-attachments/files/30289651/report-cuisine-existing-breakdown-discounts.trycloudflare.com-20260723071149.json) |
+| [report-commands-may-opposed-leu.trycloudflare.com-20260723110203.json](https://github.com/user-attachments/files/30290846/report-commands-may-opposed-leu.trycloudflare.com-20260723110203.json) |
 
 ---
 
@@ -251,12 +251,13 @@ Real-world URL analyses performed by PhishLens. Each entry shows the target URL 
 
 | Analysis |
 |----------|
-| URL: `https://google.com⧸accountʔ@t.ly/EFiTr` |
-| ![image-analysis](https://github.com/user-attachments/assets/f8064d36-6cf0-4699-8693-388543caa135) |
+| URL: `https://google.com⧸accountʔ@t.ly/4l6sF` |
+| ![image-analysis](https://github.com/user-attachments/assets/31cd3ccf-ce46-4fab-bb01-92a6abc9d776) |
+| ![image-analysis](https://github.com/user-attachments/assets/6dfd2348-88cc-4c91-880b-9cf349c3b641) |
 | Report |
-| [report-t.ly-20260723072801.pdf](https://github.com/user-attachments/files/30289542/report-t.ly-20260723072801.pdf) |
+| [report-commands-may-opposed-leu.trycloudflare.com-20260723105655.pdf](https://github.com/user-attachments/files/30290771/report-commands-may-opposed-leu.trycloudflare.com-20260723105655.pdf) |
 | Json Report |
-| [report-t.ly-20260723072802.json](https://github.com/user-attachments/files/30289567/report-t.ly-20260723072802.json) |
+| [report-commands-may-opposed-leu.trycloudflare.com-20260723105655.json](https://github.com/user-attachments/files/30290776/report-commands-may-opposed-leu.trycloudflare.com-20260723105655.json) |
 
 ---
 
