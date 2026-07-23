@@ -1,4 +1,4 @@
-# DEDSEC PHISHLENS
+# PHISHLENS
 
 **Advanced Phishing Detection Engine — Multi-Layer Analysis, Penalty-Based Scoring, Automated Triage**
 
